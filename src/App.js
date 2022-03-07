@@ -625,7 +625,7 @@ export default function App() {
             </div>
             <div className="content">
               <div className="tags">
-                <a href="#" >
+                <a href="#">
                   {" "}
                   <i className="fas fa-tag" /> food /{" "}
                 </a>
@@ -651,7 +651,7 @@ export default function App() {
                 {" "}
                 <i className="fas fa-calendar" /> 21st may, 2021{" "}
               </h3>
-              <img src="image/blog-2.jpg" alt="" />
+              <img src={"./assests/image/blog-2.jpg"} alt="" />
             </div>
             <div className="content">
               <div className="tags">
