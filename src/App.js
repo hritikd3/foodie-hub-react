@@ -1,72 +1,16 @@
 import React from "react";
 // import "./style.scss"
-import Home from './Components/Home'
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Category from "./Components/Category";
 import "./styles.css";
 export default function App() {
   return (
     <div>
       <Home />
-      {/* category section starts  */}
-      <section className="category">
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-1.png"} alt="" />
-          <h3>combo</h3>
-        </a>
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-2.png"} alt="" />
-          <h3>pizza</h3>
-        </a>
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-3.png"} alt="" />
-          <h3>burger</h3>
-        </a>
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-4.png"} alt="" />
-          <h3>chicken</h3>
-        </a>
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-5.png"} alt="" />
-          <h3>dinner</h3>
-        </a>
-        <a href="#" className="box">
-          <img src={"./assests/image/cat-6.png"} alt="" />
-          <h3>coffee</h3>
-        </a>
-      </section>
-      {/* category section ends */}
-      {/* about section starts  */}
-      <section className="about" id="about">
-        <div className="image">
-          <img src={"./assests/image/about-img.png"} alt="" />
-        </div>
-        <div className="content">
-          <span>why choose us?</span>
-          <h3 className="title">what's make our food delicious!</h3>
-          <p>our customers are our first periority</p>
-          <a href="#" className="btn">
-            read more
-          </a>
-          <div className="icons-container">
-            <div className="icons">
-              <img src={"./assests/image/serv-1.png"} alt="" />
-              <h3>fast delivery</h3>
-            </div>
-            <div className="icons">
-              <img src={"./assests/image/serv-2.png"} alt="" />
-              <h3>fresh food</h3>
-            </div>
-            <div className="icons">
-              <img src={"./assets/image/serv-3.png"} alt="" />
-              <h3>best quality</h3>
-            </div>
-            <div className="icons">
-              <img src={"./assets/image/serv-4.png"} alt="" />
-              <h3>24/7 support</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* about section ends */}
+      <About />
+      <Category />
+
       {/* popular section starts  */}
       <section className="popular" id="popular">
         <div className="heading">
