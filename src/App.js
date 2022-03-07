@@ -621,7 +621,7 @@ export default function App() {
                 {" "}
                 <i className="fas fa-calendar" /> 21st may, 2021{" "}
               </h3>
-              <img src="image/blog-1.jpg" alt="" />
+              <img src={"./assests/image/blog-1.jpg"} alt="" />
             </div>
             <div className="content">
               <div className="tags">
