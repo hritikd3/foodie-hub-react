@@ -100,7 +100,18 @@ export default function Footer() {
           </div>
           <div className="credit">
             {" "}
-            created <span>mr. hritik singh</span> | all rights reserved!{" "}
+            created by{" "}
+            <a
+              href=""
+              onClick={() =>
+                alert(
+                  "ʕ•́ᴥ•̀ʔ currently Smashing my keyboard until something good happens... 😄"
+                )
+              }
+            >
+              <span> hritik singh </span>
+            </a>{" "}
+            | all rights reserved!{" "}
           </div>
         </div>
       </section>
