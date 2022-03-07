@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Category from "./Components/Category";
 import Popular from "./Components/Popular";
+import Banner from "./Components/Banner";
+import Menu from "./Components/Menu";
 import "./styles.css";
 export default function App() {
   return (
@@ -12,105 +14,8 @@ export default function App() {
       <About />
       <Category />
       <Popular />
-
-      {/* banner section starts  */}
-      <section className="banner">
-        <div className="row-banner">
-          <div className="content">
-            <span>double cheese</span>
-            <h3>burger</h3>
-            <p>with cococola and fries</p>
-            <a href="#" className="btn">
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="grid-banner">
-          <div className="grid">
-            <img src={"./assests/image/banner-1.png"} alt="" />
-            <div className="content">
-              <span>special offer</span>
-              <h3>upto 50% off</h3>
-              <a href="#" className="btn">
-                order now
-              </a>
-            </div>
-          </div>
-          <div className="grid">
-            <img src={"./assests/image/banner-2.png"} alt="" />
-            <div className="content center">
-              <span>special offer</span>
-              <h3>upto 25% extra</h3>
-              <a href="#" className="btn">
-                order now
-              </a>
-            </div>
-          </div>
-          <div className="grid">
-            <img src={"./assests/image/banner-3.png"} alt="" />
-            <div className="content">
-              <span>limited offer</span>
-              <h3>100% cashback</h3>
-              <a href="#" className="btn">
-                order now
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* banner section ends */}
-      {/* menu section starts  */}
-      <section className="menu" id="menu">
-        <div className="heading">
-          <span>our menu</span>
-          <h3>our top dishes</h3>
-        </div>
-        <div className="box-container">
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-1.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-2.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-3.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-4.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-5.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-          <a href="#" className="box">
-            <img src={"./assests/image/menu-6.png"} alt="" />
-            <div className="content">
-              <h3>delicious food</h3>
-              <div className="price">$40.00</div>
-            </div>
-          </a>
-        </div>
-      </section>
-      {/* menu section ends */}
+      <Banner />
+      <Menu />
       {/* order section starts  */}
       <section className="order" id="order">
         <div className="heading">
