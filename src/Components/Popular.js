@@ -11,7 +11,7 @@ export default function Popular() {
         </div>
         <div className="box-container">
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-1.png"} alt="" />
             </div>
@@ -28,13 +28,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-2.png"} alt="" />
             </div>
@@ -51,13 +51,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-3.png"} alt="" />
             </div>
@@ -74,13 +74,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-4.png"} alt="" />
             </div>
@@ -97,13 +97,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-5.png"} alt="" />
             </div>
@@ -120,13 +120,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-6.png"} alt="" />
             </div>
@@ -143,13 +143,14 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-7.png"} alt="" />
             </div>
@@ -166,13 +167,13 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>
           </div>
           <div className="box">
-            <a href="#" className="fas fa-heart" />
+            <a href="/#" className="fas fa-heart" />
             <div className="image">
               <img src={"./assests/image/food-8.png"} alt="" />
             </div>
@@ -189,7 +190,7 @@ export default function Popular() {
               <div className="price">
                 $40.00 <span>$50.00</span>
               </div>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 add to cart
               </a>
             </div>

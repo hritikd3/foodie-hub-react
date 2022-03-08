@@ -6,17 +6,17 @@ export default function Home() {
       <div>
         {/* header section starts  */}
         <header className="header">
-          <a href="#" className="logo">
+          <a href="/#" className="logo">
             {" "}
             <i className="fas fa-utensils" /> foodie hub{" "}
           </a>
           <nav className="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#popular">popular</a>
-            <a href="#menu">menu</a>
-            <a href="#order">order</a>
-            <a href="#blogs">blogs</a>
+            <a href="/#home">home</a>
+            <a href="/#about">about</a>
+            <a href="/#popular">popular</a>
+            <a href="/#menu">menu</a>
+            <a href="/#order">order</a>
+            <a href="/#blogs">blogs</a>
           </nav>
           <div className="icons">
             <div id="menu-btn" className="fas fa-bars" />
@@ -116,7 +116,7 @@ export default function Home() {
                 {" "}
                 total : <span>$200</span>{" "}
               </h3>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 proceed to checkout
               </a>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
         </section>
         {/* login-form  */}
         <div className="login-form-container">
-          <form action>
+          <form>
             <h3>login form</h3>
             <input
               type="email"
@@ -146,10 +146,10 @@ export default function Home() {
             </div>
             <input type="submit" defaultValue="login now" className="btn" />
             <p>
-              forget password? <a href="#">click here</a>
+              forget password? <a href="/#">click here</a>
             </p>
             <p>
-              don't have an account? <a href="#">create one</a>
+              don't have an account? <a href="/#">create one</a>
             </p>
           </form>
         </div>
@@ -157,9 +157,11 @@ export default function Home() {
         <section className="home" id="home">
           <div className="content">
             <span>welcome foodies</span>
-            <h3>different spices for the different tastes 😋</h3>
+            <h3>
+              different spices for the different tastes <> 😋</>
+            </h3>
             <p>Great taste for great you only at Foodie hub.</p>
-            <a href="#" className="btn">
+            <a href="//#" className="btn">
               order now
             </a>
           </div>

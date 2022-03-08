@@ -20,22 +20,22 @@ export default function Blogs() {
             </div>
             <div className="content">
               <div className="tags">
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> food /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> burger /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> pizza
                 </a>
               </div>
               <h3>your one and only partner...</h3>
               <p>our blogs you must check for updates.</p>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 read more
               </a>
             </div>
@@ -50,22 +50,22 @@ export default function Blogs() {
             </div>
             <div className="content">
               <div className="tags">
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> food /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> burger /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> pizza
                 </a>
               </div>
               <h3>why not to eat junk food daily..</h3>
               <p>our blogs you must check for updates.</p>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 read more
               </a>
             </div>
@@ -80,22 +80,22 @@ export default function Blogs() {
             </div>
             <div className="content">
               <div className="tags">
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> food /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> burger /{" "}
                 </a>
-                <a href="#">
+                <a href="/#">
                   {" "}
                   <i className="fas fa-tag" /> pizza
                 </a>
               </div>
               <h3>Foodie hub goes to wheel o meal...</h3>
               <p>our blogs you must check for updates.</p>
-              <a href="#" className="btn">
+              <a href="/#" className="btn">
                 read more
               </a>
             </div>

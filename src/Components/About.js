@@ -12,7 +12,7 @@ export default function About() {
           <span>why choose us?</span>
           <h3 className="title">what's make our food delicious!</h3>
           <p>our customers are our first periority</p>
-          <a href="#" className="btn">
+          <a href="/#" className="btn">
             read more
           </a>
           <div className="icons-container">

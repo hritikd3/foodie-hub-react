@@ -15,68 +15,68 @@ export default function Footer() {
         <div className="box-container">
           <div className="box">
             <h3>our menu</h3>
-            <a href="#">
+            <a href="/#">
               <i className="fas fa-arrow-right" /> pizza
             </a>
-            <a href="#">
+            <a href="/#">
               <i className="fas fa-arrow-right" /> burger
             </a>
-            <a href="#">
+            <a href="/#">
               <i className="fas fa-arrow-right" /> chicken
             </a>
-            <a href="#">
+            <a href="/#">
               <i className="fas fa-arrow-right" /> pasta
             </a>
-            <a href="#">
+            <a href="/#">
               <i className="fas fa-arrow-right" /> and more...
             </a>
           </div>
           <div className="box">
             <h3>quick links</h3>
-            <a href="#home">
+            <a href="/#home">
               {" "}
               <i className="fas fa-arrow-right" /> home
             </a>
-            <a href="#about">
+            <a href="/#about">
               {" "}
               <i className="fas fa-arrow-right" /> about
             </a>
-            <a href="#popular">
+            <a href="/#popular">
               {" "}
               <i className="fas fa-arrow-right" /> popular
             </a>
-            <a href="#menu">
+            <a href="/#menu">
               {" "}
               <i className="fas fa-arrow-right" /> menu
             </a>
-            <a href="#order">
+            <a href="/#order">
               {" "}
               <i className="fas fa-arrow-right" /> order
             </a>
-            <a href="#blogs">
+            <a href="/#blogs">
               {" "}
               <i className="fas fa-arrow-right" /> blogs
             </a>
           </div>
           <div className="box">
             <h3>extra links</h3>
-            <a href="#">
+            <a href="/#">
               {" "}
               <i className="fas fa-arrow-right" /> my order
             </a>
-            <a href="#">
+            <a href="/#">
               {" "}
               <i className="fas fa-arrow-right" /> my account
             </a>
-            <a href="#">
+            <a href="/#">
               {" "}
               <i className="fas fa-arrow-right" /> my favorite
             </a>
-            <a href="#">
+            <a href="/#">
               {" "}
               <i className="fas fa-arrow-right" /> terms of use
             </a>
-            <a href="#">
+            <a href="/#">
               {" "}
               <i className="fas fa-arrow-right" /> privary policy
             </a>
@@ -92,17 +92,17 @@ export default function Footer() {
         </div>
         <div className="bottom">
           <div className="share">
-            <a href="#" className="fab fa-facebook-f" />
-            <a href="#" className="fab fa-twitter" />
-            <a href="#" className="fab fa-instagram" />
-            <a href="#" className="fab fa-linkedin" />
-            <a href="#" className="fab fa-pinterest" />
+            <a href="/#" className="fab fa-facebook-f" />
+            <a href="/#" className="fab fa-twitter" />
+            <a href="/#" className="fab fa-instagram" />
+            <a href="/#" className="fab fa-linkedin" />
+            <a href="/#" className="fab fa-pinterest" />
           </div>
           <div className="credit">
             {" "}
             created by{" "}
             <a
-              href=""
+              href="/#"
               onClick={() =>
                 alert(
                   "ʕ•́ᴥ•̀ʔ currently Smashing my keyboard until something good happens... 😄"
