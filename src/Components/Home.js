@@ -11,12 +11,12 @@ export default function Home() {
             <i className="fas fa-utensils" /> foodie hub{" "}
           </a>
           <nav className="navbar">
-            <a href="/#home">home</a>
-            <a href="/#about">about</a>
-            <a href="/#popular">popular</a>
-            <a href="/#menu">menu</a>
-            <a href="/#order">order</a>
-            <a href="/#blogs">blogs</a>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#popular">popular</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#blogs">blogs</a>
           </nav>
           <div className="icons">
             <div id="menu-btn" className="fas fa-bars" />
@@ -28,13 +28,8 @@ export default function Home() {
         {/* header section ends  */}
         {/* search-form  */}
         <section className="search-form-container">
-          <form action>
-            <input
-              type="search"
-              name
-              placeholder="search here..."
-              id="search-box"
-            />
+          <form>
+            <input type="search" placeholder="search here..." id="search-box" />
             <label htmlFor="search-box" className="fas fa-search" />
           </form>
         </section>
@@ -45,11 +40,11 @@ export default function Home() {
             <div className="box-container">
               <div className="box">
                 <i className="fas fa-times" />
-                <img src={"./assests/image/menu-1.png"} alt="" />
+                <img src={"assests/image/menu-1.png"} alt="" />
                 <div className="content">
                   <h3>delicious food</h3>
                   <span> quantity : </span>
-                  <input type="number" name defaultValue={1} id />
+                  <input type="number" defaultValue={1} />
                   <br />
                   <span> price : </span>
                   <span className="price"> $40.00 </span>
@@ -57,11 +52,11 @@ export default function Home() {
               </div>
               <div className="box">
                 <i className="fas fa-times" />
-                <img src="image/menu-2.png" alt="" />
+                <img src={"assests/image/menu-2.png"} alt="" />
                 <div className="content">
                   <h3>delicious food</h3>
                   <span> quantity : </span>
-                  <input type="number" name defaultValue={1} id />
+                  <input type="number" defaultValue={1} />
                   <br />
                   <span> price : </span>
                   <span className="price"> $40.00 </span>
@@ -69,11 +64,11 @@ export default function Home() {
               </div>
               <div className="box">
                 <i className="fas fa-times" />
-                <img src={"./assests/image/menu-3.png"} alt="" />
+                <img src={"assests/image/menu-3.png"} alt="" />
                 <div className="content">
                   <h3>delicious food</h3>
                   <span> quantity : </span>
-                  <input type="number" name defaultValue={1} id />
+                  <input type="number" defaultValue={1} />
                   <br />
                   <span> price : </span>
                   <span className="price"> $40.00 </span>
@@ -81,11 +76,11 @@ export default function Home() {
               </div>
               <div className="box">
                 <i className="fas fa-times" />
-                <img src="image/menu-4.png" alt="" />
+                <img src={"assests/image/menu-4.png"} alt="" />
                 <div className="content">
                   <h3>delicious food</h3>
                   <span> quantity : </span>
-                  <input type="number" name defaultValue={1} id />
+                  <input type="number" defaultValue={1} />
                   <br />
                   <span> price : </span>
                   <span className="price"> $40.00 </span>
@@ -93,11 +88,11 @@ export default function Home() {
               </div>
               <div className="box">
                 <i className="fas fa-times" />
-                <img src="image/menu-5.png" alt="" />
+                <img src={"assests/image/menu-5.png"} alt="" />
                 <div className="content">
                   <h3>delicious food</h3>
                   <span> quantity : </span>
-                  <input type="number" name defaultValue={1} id />
+                  <input type="number" defaultValue={1} />
                   <br />
                   <span> price : </span>
                   <span className="price"> $40.00 </span>
@@ -128,20 +123,16 @@ export default function Home() {
             <h3>login form</h3>
             <input
               type="email"
-              name
               placeholder="enter your email"
-              id
               className="box"
             />
             <input
               type="password"
-              name
               placeholder="enter your password"
-              id
               className="box"
             />
             <div className="remember">
-              <input type="checkbox" name id="remember-me" />
+              <input type="checkbox" id="remember-me" />
               <label htmlFor="remember-me">remember me</label>
             </div>
             <input type="submit" defaultValue="login now" className="btn" />
@@ -161,18 +152,18 @@ export default function Home() {
               different spices for the different tastes <> 😋</>
             </h3>
             <p>Great taste for great you only at Foodie hub.</p>
-            <a href="//#" className="btn">
+            <a href="#order" className="btn">
               order now
             </a>
           </div>
           <div className="image">
             <img
-              src={"./assests/image/home-img.png"}
+              src={"assests/image/home-img.png"}
               alt=""
               className="home-img"
             />
             <img
-              src={"./assests/image/home-parallax-img.png"}
+              src={"assests/image/home-parallax-img.png"}
               alt=""
               className="home-parallax-img"
             />

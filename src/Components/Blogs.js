@@ -16,7 +16,7 @@ export default function Blogs() {
                 {" "}
                 <i className="fas fa-calendar" /> 21st may, 2021{" "}
               </h3>
-              <img src={"./assests/image/blog-1.jpg"} alt="" />
+              <img src={"assests/image/blog-1.jpg"} alt="" />
             </div>
             <div className="content">
               <div className="tags">
@@ -46,7 +46,7 @@ export default function Blogs() {
                 {" "}
                 <i className="fas fa-calendar" /> 21st may, 2021{" "}
               </h3>
-              <img src={"./assests/image/blog-2.jpg"} alt="" />
+              <img src={"assests/image/blog-2.jpg"} alt="" />
             </div>
             <div className="content">
               <div className="tags">
@@ -76,7 +76,7 @@ export default function Blogs() {
                 {" "}
                 <i className="fas fa-calendar" /> 21st may, 2021{" "}
               </h3>
-              <img src={"./assests/image/blog-3.jpg"} alt="" />
+              <img src={"assests/image/blog-3.jpg"} alt="" />
             </div>
             <div className="content">
               <div className="tags">
