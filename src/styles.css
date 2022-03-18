@@ -664,7 +664,7 @@ section {
 }
 
 .banner .row-banner {
-  background: url("assests/image/row-banner.png") no-repeat; 
+  background: url("https://foodie-hub.netlify.app/image/row-banner.png") no-repeat; 
   height: 45rem;
   background-size: cover;
   background-position: center;
